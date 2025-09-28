@@ -2,7 +2,7 @@ const paramString = window.location.search;
 let idParams = new URLSearchParams(paramString);
 let id = idParams.get("id");
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://adalicious-back-bdxu.onrender.com";
 const user = localStorage.getItem("user");
 
 document.querySelector("#message").innerHTML = `Merci pour ta commande ${user}`;

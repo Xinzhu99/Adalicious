@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000";
+const API_URL = "https://adalicious-back-bdxu.onrender.com";
 
 const loadOrders = async (params) => {
   try {
